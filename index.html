@@ -5,28 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@300;400;600;700&family=Poppins:wght@200;400;600&family=Press+Start+2P&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,400;0,700;1,300;1,400;1,700&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/85f3ffcdf5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/styles.css">
+  
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
+  <main>
+    <section class="intro">
+      <img class="logo" src="images/logo.svg" alt="logo">
+      <img class="illustration" src="images/illustration-mockups.svg" alt="">
+    </section>
+    <section class="content">
+      <h1 class="title">
+        Build The Community Your Fans Will Love
+      </h1>
+      <p class="description">
+        Huddle re-imagines the way we build communities. You have a voice, but so <br> does your audience. 
+        Create connections <br> with your users as you engage in <br> genuine discussion. 
+      </p>
+      <button>Register</button>
+    </section>
+  </main>
 
   <footer>
+    <ul class="icons">
+      <li>
+        <i class="fa-brands fa-facebook-f icon"></i>
+      </li>
+      <li>
+        <i class="fa-brands fa-twitter icon"></i>
+      </li>
+      <li>
+        <i class="fa-brands fa-instagram icon"></i>
+      </li>
+    </ul>
+
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Vince Cedie Pino</a>.
     </p>
   </footer>
 </body>
