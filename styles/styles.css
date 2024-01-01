@@ -99,7 +99,7 @@ li {
 }
 
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: white; }
 
 
 @media screen and (max-width: 375px) {
